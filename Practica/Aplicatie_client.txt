@@ -1,0 +1,25 @@
+O masa poate fi rezervata, libera sau ocupata.
+1.Click: Verde->Rosu: se semnalizeaza ospatarului ca masa libera a fost ocupata 
+2.Click: Galben->Rosu:se semnalizeaza ospatarului ca masa rezervata a fost ocupata
+
+Daca masa e ocupata apar 2 butoane (engleza/romana) pentru masa libera, sau un camp in care se va introduce un cod astfel incat masa sa nu 
+poata fi ocupatata de altcineva (daca masa este rezervata) si butoanele pentru limba.
+Campul cu cod va aparea daca masa e rezervata.
+
+3.Campul este completat cu un cod si dupa 2 secunde se activeaza cele 2 butoane(Engleza/Romana).
+
+6.Click: Se selecteaza limba -> Se deschide o fereastra cu meniul(in stanga) ce va avea un ListBox in care vor fi categoriile de produse: 
+	 racoritoare, fresh&limonada, smothie,ceai, cafea&ciocolata calda, bere, vin, cognac, vodka, wisky, cocktail,
+	 mancare(in cazul in care se serveste in local), diverse(alune,chips-uri, tigari(daca se vand acolo) etc).
+7.Select: Se selecteaza categoria iar comboboxul va putea fi accesat pentru a selecta produsul. 
+	  (Textul va fi in engleza/romana in functie de limba selectata ,produsele ce au un nume specific vor pastra numele,
+	  (ex. mici(romana)=mici(engleza)) insa ingredientele si produsele a caror denumiretrebuie tradusa vor fi traduse(ciocolata calda= hot chocolate))
+Fereastra va fi impartita in 2 zone: o zona cu categoriile si produsele  si o zona unde clientul vede permanent comanda si un buton prin care se trimite comanda
+8.Select: Se selecteaza produsul si numarul cu ajutorul unui camp in care vor fi introduse int-uri.
+9.Click: Se finalizeaza si se trimite comanda
+
+Nota: Inainte de plasarea comenzii se pot face mentiuni.Pentru dupa plasarea comenzii se va reveni la un mediu cu 2 butoane comanda noua, nota.
+Ceea ce se obtine la o comanda noua se va adauga la ceea ce s-a comandat la masa
+Comenzile vor fi preluate de ospatar in functie de ordinea cronologica.
+Nu pot exista comenzi goale. Daca nu se completeaza numarul de produse acesta va fi default 1.
+
